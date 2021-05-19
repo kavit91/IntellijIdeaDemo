@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.486">
+    <testcase classname="OrangeHrm login page" name="In order to verify login to facebook as Invalid user" time="0.071">
+        <system-out><![CDATA[Given user navigate to facebook website.....................................passed
+When user validates the homepage title......................................passed
+Then user entered invalid username..........................................passed
+And user entered invalid password...........................................passed
+Then user shouldnot successfully logged in..................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-15T08:23:43.051Z",
+        "line": 12,
+        "name": "In order to verify login to facebook as Invalid user",
+        "description": "",
+        "id": "orangehrm-login-page;in-order-to-verify-login-to-facebook-as-invalid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user navigate to facebook website",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_navigate_to_facebook_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user validates the homepage title",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_validates_the_homepage_title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user entered invalid username",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_entered_invalid_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user entered invalid password",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_entered_invalid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user shouldnot successfully logged in",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_shouldnot_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm login page",
+    "description": "",
+    "id": "orangehrm-login-page",
+    "keyword": "Feature",
+    "uri": "file:features/OhrmLogin.feature",
+    "tags": []
+  }
+]
